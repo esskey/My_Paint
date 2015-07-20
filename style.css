@@ -1,0 +1,82 @@
+body
+{
+	background-color: rgb(209, 203, 189);
+}
+
+#papier
+{
+	border: 6px solid #8C8D87;
+	width: 900px;
+	height: 500px;
+	margin: 47px;
+	border-radius: 14px;
+	background-color: white;
+}
+
+#container
+{
+	width: 1000px;
+	margin: auto;
+	border: 1px solid rgb(233, 234, 221);
+	background-color: #E4DFC0;
+	box-shadow: 0px 0px 18px 5px #DBDBD6;
+	border-radius: 42px;
+}
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	border-width: medium medium 3px;
+	border-style: none none solid;
+	border-color: -moz-use-text-color -moz-use-text-color rgb(242, 243, 255);
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	padding: 6px 29px;
+	border-radius: 75%;
+	width: 80px;
+	text-align: center;
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px -1px 0px rgba(255, 255, 255, 0.1);
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
+	background: linear-gradient(#555, #2C2C2C) repeat scroll 0% 0% transparent;
+	color: #FFF;
+}
+
+.button:hover{
+	background-color: red;
+}
+
+.button:active
+{
+	box-shadow: 1px 1px 10px #000 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+#mode
+{
+	text-align: center;
+}
+
+#form
+{
+	text-align: center;
+	margin: 19px;
+}
+
+#mode
+{
+	text-align: center;
+}
+
+#los_colores
+{
+	text-align: center;
+	margin: 19px;
+}
+
+#boutton
+{
+	text-align: center;
+	margin: 25px;
+}
